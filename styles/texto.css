@@ -1,0 +1,50 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    background-color: gray;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.grid-container > div{
+    padding: 15px;
+    background-color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+h5{
+    text-align: center;
+}
+
+.overline{
+    text-decoration: overline;
+
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.overline-underline{
+    text-decoration: overline;
+}

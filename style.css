@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    margin: 0;
+    width: 100%;
+    background: #555;
+    overflow: auto;
+}
+
+.navbar a{
+    margin: 0;
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: rgb(0, 255, 195);
+}
+
+.active{
+    background-color: rgb(0, 255, 195);
+}
+
+.responsive{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .responsive{
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+
+    a{
+        display: none;
+    }
+}
+
+.instruccion{
+    text-align: center;
+    margin: 0 15%;
+}
